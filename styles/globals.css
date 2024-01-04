@@ -1,0 +1,134 @@
+@import "./fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-roboto scroll-smooth bg-[ghostwhite] text-dark_2 dark:bg-[#0d1117] dark:text-offwhite;
+  }
+
+  nav::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+  /* .heading-1 {
+    @apply text-3xl font-ranade-bold mb-2;
+  }*/
+
+  .gradient_effect {
+    @apply absolute top-0 left-0 w-full h-[40vh] bg-gradient-to-br from-pink-400 to-purple-500 blur-3xl opacity-10 -z-20 md:h-[70vh];
+  }
+
+  /* Typography */
+  .sub_heading {
+    @apply mb-2 text-xl text-dark_1 dark:text-white;
+    font-family: "Exo", sans-serif;
+  }
+
+  .text_tiny {
+    font-size: 0.7rem;
+  }
+
+  .info {
+    @apply font-normal text-[rgb(63,52,70)] leading-7 tracking-wide border-l-[1px] border-gray-700/10 pl-4 dark:text-offwhite dark:border-offwhite/35;
+  }
+
+  .gradient_line {
+    @apply w-40 h-1 bg-gradient-to-r from-fuchsia-500 to-purple-600;
+  }
+
+  .gradient_text {
+    @apply bg-gradient-to-r from-fuchsia-500 to-purple-600 bg-clip-text text-transparent w-fit;
+  }
+
+  /* Technology Badge */
+  .badge_react {
+    @apply flex items-center rounded px-2 bg-purple-100 text-purple-700;
+    font-size: 12px;
+  }
+  .badge_tailwind {
+    @apply flex items-center rounded px-2 bg-sky-100 text-sky-700;
+    font-size: 12px;
+  }
+  .badge_react_query {
+    @apply flex items-center rounded px-2 bg-rose-100 text-rose-700;
+    font-size: 12px;
+  }
+  .badge_nextjs {
+    @apply flex items-center rounded px-2 bg-gray-700 text-gray-100;
+    font-size: 12px;
+  }
+
+  /* Others */
+  .social_icon {
+    @apply border-[1.4px] border-black p-1 rounded cursor-pointer transition duration-100 dark:border-offwhite active:bg-purple-600/10 active:scale-95;
+  }
+
+  .resume_btn {
+    @apply flex items-center gap-2 bg-dark_2 text-light_1 rounded py-3 px-6 transition cursor-pointer active:scale-90 hover:bg-dark_4 dark:bg-light_2 dark:text-black dark:hover:bg-light_3;
+  }
+
+  .work_btn {
+    @apply flex items-center gap-2 border-[1px] border-dark_1 text-dark_1 rounded py-1 px-6 transition cursor-pointer active:scale-90 hover:bg-dark_4 hover:text-light_1 dark:bg-transparent dark:text-light_2 dark:border-light_2 dark:hover:text-dark_2 dark:hover:bg-light_3;
+  }
+
+  .btn_link {
+    @apply flex gap-2 items-center rounded bg-dark_2 text-white px-4 py-2 transition duration-200 hover:scale-95 hover:bg-dark_4 dark:bg-light_2 dark:text-dark_2 dark:hover:bg-light_3;
+  }
+
+  .link {
+    @apply border-b-[1px] border-purple-500 hover:text-purple-500;
+  }
+
+  /* Navbar */
+  .nav_link {
+    @apply flex flex-col justify-center items-center py-1 px-2 rounded cursor-pointer active:bg-white dark:active:bg-gray-700;
+  }
+
+  .nav_link_active {
+    @apply border-b-[1px] border-gray-700/30 dark:border-offwhite/40;
+  }
+
+  /* Contact */
+  .form_input {
+    @apply bg-transparent w-full border-[1px] border-gray-700/20 rounded py-2 px-2 outline-0 dark:placeholder-offwhite/40 dark:border-offwhite/30 dark:text-offwhite/80;
+  }
+
+  .send_btn {
+    @apply bg-gray-900 text-white rounded w-full px-4 py-2 flex justify-center items-center gap-2 transition duration-500 disabled:bg-gray-600 active:scale-95 hover:bg-gray-800 dark:bg-gray-700;
+  }
+
+  .alternative_contact {
+    @apply px-2 text-purple-600 dark:text-teal-300 active:bg-purple-700/20 dark:active:bg-teal-300/20;
+  }
+
+  /* Project */
+  .project_card {
+    @apply rounded-2xl border-[.5px] border-gray-700/20 overflow-hidden active:bg-purple-600/10 dark:border-offwhite/60;
+  }
+
+  .project_card_gradient {
+    @apply absolute top-4 left-0 w-full h-[80%] bg-gradient-to-br from-fuchsia-400 to-purple-600 opacity-20 blur-2xl -z-20;
+  }
+  
+  .project_modal_container{
+    @apply overflow-auto fixed z-50 top-0 bottom-0 left-0 right-0 w-full flex justify-center items-start bg-dark_4/40
+  }
+  
+  .project_modal{
+    @apply relative bg-light_1 mx-4 my-4 p-4 rounded-2xl dark:bg-gray-800 dark:border-[1px] dark:border-offwhite/30 md:mx-0 md:max-w-3xl
+  }
+  
+  /* Skills */
+  .skill_page_gradient {
+    @apply absolute top-0 left-0 w-full h-[40vh] bg-gradient-to-br from-green-400/40 to-purple-300 blur-2xl opacity-20 -z-20 md:h-[70vh];
+  }
+  
+  /* Blogs */
+  .blog_platform{
+    @apply px-2 py-1 bg-white shadow-2xl border-[1px] border-gray-400 rounded-lg flex justify-center items-center gap-2 transition duration-200 dark:hover:bg-gray-200 active:scale-95 dark:text-black dark:border-none dark:shadow-none
+  }
+}

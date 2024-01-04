@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&family=Roboto&display=swap');
+
+
+@font-face {
+  font-family: "Ranade-Bold";
+  src: url("/fonts/Ranade-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ranade-Light";
+  src: url("/fonts/Ranade-Light.ttf") format("truetype");
+}
