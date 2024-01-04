@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "lucide-react": "^0.302.0",
-    "next": "^13.4.0",
+    "next": "^13.4.2",
     "nodemailer": "^6.9.7",
     "react": "^18",
     "react-dom": "^18",
