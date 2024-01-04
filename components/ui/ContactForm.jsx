@@ -14,7 +14,7 @@ export const ContactForm = ({ contactPageData }) => {
         <span>{contactPageData?.form_title}</span>
       </h2>
       <div className="mt-6 my-2">
-        <label className="" for="">
+        <label className="" htmlFor="">
           Name
         </label>
         <input
@@ -27,7 +27,7 @@ export const ContactForm = ({ contactPageData }) => {
         />
       </div>
       <div className="my-2">
-        <label className="" for="">
+        <label className="" htmlFor="">
           Email
         </label>
         <input
@@ -40,7 +40,7 @@ export const ContactForm = ({ contactPageData }) => {
         />
       </div>
       <div className="my-2">
-        <label className="" for="">
+        <label className="" htmlFor="">
           Message
         </label>
         <textarea
