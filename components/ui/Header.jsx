@@ -22,7 +22,7 @@ export const Header = () => {
     <header className="fixed z-50 top-0 w-full bg-[#f8f8ff] shadow rounded-b-2xl h-16 px-8 dark:bg-[#161d27]">
       <nav className="h-full w-full overflow-auto text-center">
         <ul className="h-full inline-flex md:flex gap-4 justify-center items-center">
-          <li onClick={toggleDarkMode} className="">
+          <li onClick={toggleDarkMode} className="dark:text-offwhite">
             {isDarkMode ? <Sun /> : <Moon />}
           </li>
           {navLinks?.map(name => (

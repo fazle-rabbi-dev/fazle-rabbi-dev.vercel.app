@@ -89,7 +89,7 @@
 
   /* Navbar */
   .nav_link {
-    @apply flex flex-col justify-center items-center py-1 px-2 rounded cursor-pointer active:bg-white dark:active:bg-gray-700;
+    @apply flex flex-col justify-center items-center py-1 px-2 rounded cursor-pointer active:bg-white dark:active:bg-gray-700 dark:text-offwhite;
   }
 
   .nav_link_active {
