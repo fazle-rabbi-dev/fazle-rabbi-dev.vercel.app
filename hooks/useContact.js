@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Swal from 'sweetalert2';
-import { validateEmail, showToast } from '@/lib/utils';
+import { validateEmail } from '@/lib/utils';
+import toast from 'react-hot-toast';
 
 export const useContact = () => {
   const initialFormData = {
@@ -25,17 +26,17 @@ export const useContact = () => {
 
     if (!name || !email || !message) {
       playSound();
-      return showToast.error('Oops! Please fill out all fields before sending!');
+      return toast.error('Oops! Please fill out all fields before sending!');
     }
 
     if (!validateEmail(email)) {
       playSound();
-      return showToast.error('Oops! Please enter a valid email before sending!');
+      return toast.error('Oops! Please enter a valid email before sending!');
     }
 
     if (message.length <= 2) {
       playSound();
-      return showToast.error('Oops! Please enter a message with at least 3 characters!');
+      return toast.error('Oops! Please enter a message with at least 3 characters!');
     }
 
     // Send Message
@@ -60,11 +61,11 @@ export const useContact = () => {
         playSound('success');
         setFormData(initialFormData);
       } else {
-        showToast.error('Oops! Something went wrong. Please try again later.');
+        toast.error('Oops! Something went wrong. Please try again later.');
       }
     } catch (error) {
       console.error(error);
-      showToast.error('Oops! Something went wrong. Please try again later.');
+      toast.error('Oops! Something went wrong. Please try again later.');
     } finally {
       setIsSending(false);
     }

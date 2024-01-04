@@ -2,8 +2,9 @@ import "@/styles/globals.css";
 import { Header } from "@/components";
 import Head from "next/head";
 import { site_metadata } from "@/constants";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
+import { Toaster } from 'react-hot-toast';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -49,7 +50,7 @@ export default function App({ Component, pageProps }) {
       <main className="mx-4 my-16 pt-6 md:flex md:justify-center md:items-center">
         <Component {...pageProps} />
       </main>
-      <ToastContainer />
+      <Toaster />
     </>
   );
 }

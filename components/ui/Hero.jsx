@@ -10,24 +10,23 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-// import { useSpring, animated } from "react-spring";
+import { useSpring, animated } from "react-spring";
 import { homePageData } from "@/constants";
-import Swal from 'sweetalert2';
+import Swal from "sweetalert2";
 
 export const Hero = () => {
-  /*const heroAnimation = useSpring({
+  const heroAnimation = useSpring({
     opacity: 1,
     transform: "translateX(0)",
     from: { opacity: 0, transform: "translateX(-70%)" }
-  });*/
-  
+  });
+
   return (
     <section className="relative min-h-screen md:flex md:justify-center md:items-center md:max-w-3xl">
       {/* Gradient Effect */}
       <div className="gradient_effect"></div>
 
-      {/*<animated.div className="transition duration-100 " style={heroAnimation}>*/}
-        <div>
+      <animated.div className="transition duration-100 " style={heroAnimation}>
         <div className="md:flex md:gap-2 md:flex-row-reverse md:justify-between">
           <div className="w-32 md:w-auto">
             <Image
@@ -119,8 +118,7 @@ export const Hero = () => {
             </Link>
           </div>
         </div>
-      {/*</animated.div>*/}
-      </div>
+      </animated.div>
     </section>
   );
 };
