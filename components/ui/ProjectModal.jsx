@@ -23,7 +23,7 @@ export const ProjectModal = ({ toggleModal, project }) => {
           <h4 className="sub_heading">Features</h4>
           <ul className="">
             {project?.details?.features.map(feature => (
-              <li key={feature} className="ml-2 my-2">
+              <li key={feature} className="ml-4 my-2 text-sm">
                 {feature}
               </li>
             ))}

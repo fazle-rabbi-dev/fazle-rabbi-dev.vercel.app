@@ -9,7 +9,8 @@ const badge = [
   "badge_react",
   "badge_tailwind",
   "badge_react_query",
-  "badge_nextjs"
+  "badge_nextjs",
+  "badge_firebase"
 ];
 
 export const ProjectCard = ({ project }) => {

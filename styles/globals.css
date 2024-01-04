@@ -61,6 +61,10 @@
     @apply flex items-center rounded px-2 bg-gray-700 text-gray-100;
     font-size: 12px;
   }
+  .badge_firebase {
+    @apply flex items-center rounded px-2 bg-yellow-200 text-yellow-700;
+    font-size: 12px;
+  }
 
   /* Others */
   .social_icon {

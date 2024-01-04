@@ -31,5 +31,5 @@ export const homePageData = {
       link: links.github
     }
   ],
-  resumelink: ""
+  resumelink: "/resume.pdf"
 };

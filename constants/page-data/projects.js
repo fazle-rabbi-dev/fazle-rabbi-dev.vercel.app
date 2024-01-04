@@ -27,7 +27,7 @@ export const projectPageData = {
       },
       details: {
         title: "Rainbownote",
-        desc: "Embarked on a coding odyssey, I crafted a vibrant MERN note app. Fueled by Vite React, it boasts sleek design with Tailwind CSS. Secure GitHub login and trash management were conquered using Appwrite and React-Hook-Form. React-Query ensures real-time data updates, while TinyMCE adds flair to note editing. Personalization shines with covers and icons, and public note sharing amplifies collaboration. Beyond an app, it's a journey – a testament to creativity and full-stack prowess, ready to make waves in tech.",
+        desc: "I created this note app to practice Appwrite and enhance my React-Query skills. Building this app supercharged my React-Query and Appwrite proficiency. I implemented various features, drawing inspiration from other note-taking apps. I thoroughly enjoyed this project-building journey.",
         features: [
           "🔐 Authentication with appwrite",
           "🌐 OAuth Provider (Social login with GitHub) ",
@@ -66,7 +66,7 @@ export const projectPageData = {
       },
       details: {
         title: "Tech-Canvas",
-        desc: "Embarked on crafting a feature-rich MERN blog app, my journey unfolded with a commitment to excellence. Introducing seamless pagination, SSR, and SSG, the app promises a smooth user experience. As an admin, CRUD operations became a breeze, coupled with a secure admin panel. Implementing Firebase for file uploads added a dynamic touch, while markdown support enhanced content creation. This project is more than code – it's a testament to my dedication to building versatile, secure, and user-friendly web applications.",
+        desc: "I created this blog platform to practice my web development skills, using Next.js for the project. Building this platform boosted my confidence in handling full-stack projects. I introduced a global search bar, allowing users to search throughout the entire application—a feature I implemented for the first time in this project. Additionally, I added a tag feature to each blog post and incorporated Firebase storage. The entire journey was enjoyable, and I gained valuable real-world project-building experience.",
         features: [
           "🔐 Secure admin panel",
           "🔍 Search functionality",
@@ -142,9 +142,9 @@ export const projectPageData = {
       },
       details: {
         title: "iChat",
-        desc: "Embarking on a learning journey centered around Firebase's real-time features, I dedicated myself to crafting a chat app. With a focus on Firebase, I delved into the intricacies of its real-time capabilities. From implementing authentication with Google to mastering the art of sending and receiving messages in real-time, this project served as my playground for honing my skills. The process was more than building a chat app; it was a purposeful exploration of Firebase's real-time functionality, solidifying my expertise in leveraging this powerful tool for dynamic and interactive applications.",
+        desc: "I built this chat app out of excitement, leveraging the real-time sync power of Firebase. I thoroughly enjoyed the journey, and the excitement peaked when I finished the project. Being able to chat using my own app was a great achievement for me.",
         features: [
-          "🔐 Authentication with Google",
+          "🔐 Authentication with firebase",
           "🚪 Logout functionality",
           "💬 Send and receive messages",
           "🔊 Sound play when new messages arrive",
@@ -177,10 +177,11 @@ export const projectPageData = {
       },
       details: {
         title: "Phone-Book",
-        desc: "Embarking on the creation of Phone-Book, a stellar contacts management web app, my journey unfolded with a commitment to user-centric functionality. Users can effortlessly create a free account, enabling them to store, edit, and delete contact information seamlessly. Adding an extra layer of security, a unique secret key is required during login to safeguard user contacts. This innovative approach ensures that even as the developer, I lack access to user contact info, prioritizing user privacy. The project is more than just coding; it's a purposeful endeavor to deliver a secure and user-friendly contacts management solution.",
+        desc: "After learning Next.js, I had a plan to create a phone book web app for storing phone numbers from my contacts. As I started working on it, I realized the potential to make it a multi-user platform. I added account creation and login functionalities, allowing anyone to store and access their phone numbers from anywhere. Completing this project was a significant achievement for me, especially after learning Next.js 13.",
         features: [
           "🔐 Secure authentication with (email & password)",
           "📧 Email verification",
+          "🔑 Forgot password functionality",
           "📇 Create, edit, and delete contacts effortlessly",
           "🔒 Enhanced privacy with secret key - As a Developer I can't access user phone numbers"
         ]
@@ -210,8 +211,8 @@ export const projectPageData = {
         live: "https://codes-wear2.vercel.app/"
       },
       details: {
-        title: "Tech-Canvas",
-        desc: "Embarking on a journey of mastering Next.js 13, I ventured into the realm of e-commerce website development and birthed Codes-Wear. This free and open-source project stands as a testament to my dedication in honing my skills. Crafted with Next.js, the website not only serves as a showcase of my learning but also as a versatile template for anyone looking to kickstart their own e-commerce venture. The journey wasn't just about code; it was a dynamic exploration, culminating in a robust and flexible platform ready to inspire and empower others in the world of web development.",
+        title: "Codeswear",
+        desc: "I created this e-commerce project while learning Next.js. It served as my real-world project to grasp Next.js concepts. I learned how to handle authentication, build a full-stack app with Next.js, work with API routes, and create a cart in an e-commerce app. This project provided me with valuable hands-on experience.",
         features: [
           "👥 Create & Login account",
           "🔑 Forgot password functionality",
