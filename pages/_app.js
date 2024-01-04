@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import { Header } from "@/components";
-// import { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import Head from "next/head";
 import { site_metadata } from "@/constants";
 
@@ -69,7 +69,7 @@ export default function App({ Component, pageProps }) {
       <main className="mx-4 my-16 pt-6 md:flex md:justify-center md:items-center">
         <Component {...pageProps} />
       </main>
-      {/*<Toaster />*/}
+      <Toaster />
     </>
   );
 }

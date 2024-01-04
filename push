@@ -1,3 +1,4 @@
 git add .
-git commit -m "Backup"
+read -p "[*] Commit Message:" msg
+git commit -m "$msg"
 git push
