@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
         {/*Metadata for Open Graph and Twitter*/}
         <meta property="og:title" content={site_metadata?.title} />
         <meta property="og:description" content={site_metadata?.desc} />
-        <meta property="og:image" content="/images/og-image.jpg" />
+        <meta property="og:image" content="/rabbi.jpg" />
         <meta property="og:image:width" content="1000" />
         <meta property="og:image:height" content="1000" />
         <meta property="og:image:type" content="image/jpg" />
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
 
         <meta property="twitter:title" content={site_metadata?.title} />
         <meta property="twitter:description" content={site_metadata?.desc} />
-        <meta property="twitter:image:src" content="/images/og-image.jpg" />
+        <meta property="twitter:image:src" content="/rabbi.jpg" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@fazle-rabbi-dev" />
         <meta property="twitter:domain" content={site_metadata?.hostname} />
