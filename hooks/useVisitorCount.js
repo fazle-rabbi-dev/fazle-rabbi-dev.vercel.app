@@ -12,7 +12,7 @@ export const useVisitorCount = (page, param) => {
   }
   
   useEffect(() => {
-    if(!param || param !== "/?visitor=rabbi"){
+    if(!param || !param.includes("?visitor=rabbi")){
       trackVisitor()
     }
   },[]);
