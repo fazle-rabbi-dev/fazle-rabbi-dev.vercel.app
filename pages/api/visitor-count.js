@@ -35,7 +35,7 @@ export default async function handler(req, res) {
     // Let's count visitor
     const newVisitor = new Visitors({
       ipAddress,
-      ipDetails,
+      ipDetails: JSON.stringify(ipDetails),
       userAgent,
       pageVisited
     });
