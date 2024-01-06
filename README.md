@@ -2,10 +2,6 @@
 
 <img src="./public/images/cover_images/dev-portfolio.jpg" alt="Fazle's Portfolio" />
 
-<div align="center">
-  <a href="https://fazle-rabbi-dev.vercel.app"><img src="https://img.shields.io/badge/Visit-Portfolio-blue" alt="Follow Fazle Fabbi Dev" /></a>
-</div>
-
 My personal portfolio website built with Next.js & Tailwind CSS. Explore my projects, skills, and journey as a MERN stack developer. Let's connect and build the future together
 
 ## About Me
