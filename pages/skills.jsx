@@ -84,7 +84,7 @@ const Skills = () => {
         </h2>
         <ul className="mt-4 flex justify-center items-center flex-wrap gap-2">
           {others?.map(skill => (
-            <li className="px-4 py-1 bg-gray-700/10 rounded shadow-2xl flex gap-2 items-center dark:bg-gray-800">
+            <li key={skill.name} className="px-4 py-1 bg-gray-700/10 rounded shadow-2xl flex gap-2 items-center dark:bg-gray-800">
               <span>{skill.icon}</span>
               {skill.name}
             </li>

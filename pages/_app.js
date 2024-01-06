@@ -2,11 +2,15 @@ import "@/styles/globals.css";
 import { Header } from "@/components";
 import Head from "next/head";
 import { site_metadata } from "@/constants";
-// import { ToastContainer } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
 import { Toaster } from 'react-hot-toast';
+import { useVisitorCount } from "@/hooks"
+import { useRouter } from 'next/router';
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter()
+  
+  useVisitorCount(router?.pathname || "unknown", router?.asPath)
+  
   return (
     <>
       <Head>

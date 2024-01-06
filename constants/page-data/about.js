@@ -1,6 +1,6 @@
 export const aboutPageData = {
   name: "Fazle Rabbi",
-  about_1: "a highly dedicated and skilled MERN stack developer from Bangladesh 🇧🇩, currently pursuing my B.S.C. Honours degree in the Botany department. My dream is to become a successful modern full-stack developer and secure a position in a tech company.",
+  about_1: "a highly dedicated and skilled MERN stack web developer from Bangladesh 🇧🇩, currently pursuing my B.S.C. Honours degree in the Botany department. My dream is to become a successful modern full-stack developer and secure a position in a tech company.",
   what_i_love: "I am deeply in love with coding and exploring various tech domains, including web development, mobile app development, cybersecurity, and ethical hacking.",
   my_hobbies: "I find joy in the art of travel, the thrill of solving coding challenges, and the satisfaction of transforming ideas into reality through programming. Whether it's developing a feature-rich web app or mobile app. I'm always eager to take on new challenges.",
   apps_i_use: "In my daily life, I rely on apps like Chat-GPT, Notion, Todoist, Trello & Bundlenotes to stay organized and productive.",

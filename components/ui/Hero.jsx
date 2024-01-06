@@ -20,7 +20,7 @@ export const Hero = () => {
     transform: "translateX(0)",
     from: { opacity: 0, transform: "translateX(-70%)" }
   });
-
+  
   return (
     <section className="relative min-h-screen md:flex md:justify-center md:items-center md:max-w-3xl">
       {/* Gradient Effect */}
