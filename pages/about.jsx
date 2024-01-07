@@ -50,8 +50,8 @@ const About = () => {
       <div className="my-10">
         <h2 className="sub_heading">Fun fact 🤩</h2>
         <p className="info">
-          I code on <span className="gradient_text">Android</span> due to the
-          unavailability of a PC! using{" "}
+          I code on <span className="gradient_text">Android</span>
+          using{" "}
           <Link
             target="_blank"
             href="https://modyolo.com/acode-powerful-code-editor.html"
