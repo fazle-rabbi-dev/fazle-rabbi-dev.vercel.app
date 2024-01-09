@@ -18,5 +18,5 @@ export const useVisitorCount = (page = "", param = "") => {
       const source = queryParam.get("source");
       trackVisitor(source);
     }
-  }, [param]);
+  }, []);
 };
