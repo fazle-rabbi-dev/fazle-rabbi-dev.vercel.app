@@ -21,6 +21,9 @@ const visitorSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  source: {
+    type: String,
+  }
 });
 
 const Visitors = mongoose.models.Visitors || mongoose.model('Visitors', visitorSchema);

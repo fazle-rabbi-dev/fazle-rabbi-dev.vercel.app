@@ -2,15 +2,16 @@ import "@/styles/globals.css";
 import { Header } from "@/components";
 import Head from "next/head";
 import { site_metadata } from "@/constants";
-import { Toaster } from 'react-hot-toast';
-import { useVisitorCount } from "@/hooks"
-import { useRouter } from 'next/router';
+import { Toaster } from "react-hot-toast";
+import { useVisitorCount } from "@/hooks";
+import { useRouter } from "next/router";
+import { ThemeProvider } from "@/context";
 
 export default function App({ Component, pageProps }) {
-  const router = useRouter()
-  
-  useVisitorCount(router?.pathname || "unknown", router?.asPath)
-  
+  const router = useRouter();
+
+  useVisitorCount(router?.pathname || "unknown", router?.asPath);
+
   return (
     <>
       <Head>
@@ -50,7 +51,9 @@ export default function App({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-      <Header />
+      <ThemeProvider>
+        <Header />
+      </ThemeProvider>
       <main className="mx-4 my-16 pt-6 md:flex md:justify-center md:items-center">
         <Component {...pageProps} />
       </main>

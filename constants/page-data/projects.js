@@ -114,6 +114,49 @@ export const projectPageData = {
       }
     },
     {
+      id: 44,
+      cover: "/images/cover_images/due-cash.jpg",
+      name: "Due-Cash",
+      desc: "A powerful React app designed to effortlessly manage due cash for shops or individuals. Simplify your financial tracking and stay organized. ",
+      technologies: [
+        {
+          name: "React",
+          style: "badge_react"
+        },
+        {
+          name: "TailwindCSS",
+          style: "badge_tailwind"
+        },
+        {
+          name: "Nodejs",
+          style: "badge_node"
+        },
+        {
+          name: "MongoDB",
+          style: "badge_mongo"
+        }
+      ],
+      links: {
+        github: "https://github.com/fazle-rabbi-dev/due-cash",
+        live: "https://due-cash.vercel.app/"
+      },
+      details: {
+        title: "Due-Cash",
+        desc: "I created this project to practice my frontend React skills. It was based on my own idea, aimed at helping people manage their shops or businesses. As I worked on the project, my React skills improved significantly, and I thoroughly enjoyed the journey of creating it. This project has been an exciting and fulfilling experience for me.",
+        features: [
+          "🌐 Create & log in to an account",
+          "🚀 Logout functionality",
+          "📱 Logout from all devices",
+          "📝 Create customer records",
+          "🛒 Create bought records",
+          "🔄 Automatically calculate due-cash",
+          "🌐 App language switching between Bengali and English",
+          "🔍 Filter customer records by customer name",
+          "✏️ Update & delete records"
+        ]
+      }
+    },
+    {
       id: 4,
       cover: "/images/cover_images/ichat.jpg",
       name: "iChat",

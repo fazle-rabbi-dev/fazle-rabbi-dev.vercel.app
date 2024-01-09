@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
 import Visitors from "@/db/VisitorModel";
-import connect from "@/db/connect";
 import axios from "axios";
+require("@/db/connect");
 
 export default async function handler(req, res) {
   const userAgent = req.headers["user-agent"];
-  const pageVisited = req.query.pageVisited;
+  const { pageVisited, source } = req.query;
 
   if (req.method !== "GET") {
     return res.status(405).json({
@@ -23,25 +23,26 @@ export default async function handler(req, res) {
 
   try {
     // Get user public ip
-    const response = await fetch("https://api.ipify.org");
-    const ipAddress = await response.text();
+    // const response = await fetch("https://api.ipify.org");
+    // const ipAddress = await response.json()
 
     // Get ip details
-    const ipDetailsResponse = await fetch(
-      `https://ipinfo.io/${ipAddress}?token=${process.env.IP_INFO_TOKEN}`
-    );
-    const ipDetails = await ipDetailsResponse.json();
-
+    // const ipDetailsResponse = await fetch(
+    //   `https://ipinfo.io/${ipAddress}?token=${process.env.IP_INFO_TOKEN}`
+    // );
+    // const ipDetails = await ipDetailsResponse.json();
+    
     // Let's count visitor
     const newVisitor = new Visitors({
-      ipAddress,
-      ipDetails: JSON.stringify(ipDetails),
+      ipAddress: "unknown",
+      ipDetails: "unknown",
       userAgent,
-      pageVisited
+      pageVisited,
+      source: source || "unknown"
     });
     
     await newVisitor.save();
-    // console.log(newVisitor)
+    console.log(newVisitor)
     
     res.status(201).json({
       success: true,
@@ -49,7 +50,7 @@ export default async function handler(req, res) {
       visitor: newVisitor
     });
   } catch (error) {
-    console.log(error);
+    console.log(`Error occured while saving visitor source. Cause: ${error.message}`);
     res.status(500).json({
       success: false,
       message: "Internal server error"

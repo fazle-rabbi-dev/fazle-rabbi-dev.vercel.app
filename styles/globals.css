@@ -65,6 +65,14 @@
     @apply flex items-center rounded px-2 bg-yellow-200 text-yellow-700;
     font-size: 12px;
   }
+  .badge_node {
+    @apply flex items-center rounded px-2 bg-lime-400 text-green-700;
+    font-size: 12px;
+  }
+  .badge_mongo {
+    @apply flex items-center rounded px-2 bg-green-300 text-green-700;
+    font-size: 12px;
+  }
 
   /* Others */
   .social_icon {
