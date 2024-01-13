@@ -19,8 +19,10 @@ export default function App({ Component, pageProps }) {
         <meta property="og:title" content={site_metadata?.title} />
         <meta property="og:description" content={site_metadata?.desc} />
         <meta property="og:image" content="/og-image.png" />
-        <meta property="og:image:width" content="1280" />
+        
+        {/*<meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="731" />
+        */}
         <meta property="og:image:type" content="image/png" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={site_metadata?.hostname} />
