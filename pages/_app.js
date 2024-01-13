@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
 
         <meta property="twitter:title" content={site_metadata?.title} />
         <meta property="twitter:description" content={site_metadata?.desc} />
-        <meta property="twitter:image:src" content="/og-image.png" />
+        <meta property="twitter:image" content="/og-image.png" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@fazle-rabbi-dev" />
         <meta property="twitter:domain" content={site_metadata?.hostname} />
