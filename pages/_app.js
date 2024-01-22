@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:title" content={site_metadata?.title} />
         <meta property="og:description" content={site_metadata?.desc} />
         <meta property="og:image" content="/og-image.png" />
-        
+
         {/*<meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="731" />
         */}
@@ -52,6 +52,13 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" sizes="256x256" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
+        
+        {/* Google Ads */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5974347816252396"
+          crossorigin="anonymous"
+        ></script>
       </Head>
       <ThemeProvider>
         <Header />
