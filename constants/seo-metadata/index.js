@@ -1,12 +1,12 @@
 export const site_metadata = {
-  title: "Fazle Rabbi Dev - Web Developer",
+  title: "Fazle Rabbi - Web Developer",
   desc: "I am Fazle Rabbi, a highly dedicated and skilled Web and Mobile application developer deeply in love with coding. Currently pursuing my B.S.C. Honours degree in the Botany department.Connect with Fazle Rabbi Dev for collaborations, projects, and discussions.",
   keywords: "fazle rabbi, fazle rabbi dev, fh-rabbi, fazlerabbi, fazlerabbidev, fazle rabby, fazle rabbi web dev, fazle rabbi mia, web developer, bd web developer, mern stack developer, fazle rabbi mern dev",
   author: "Fazle Rabbi",
   theme: "#f8f8f8",
   hostname: "https://fazle-rabbi-dev.vercel.app",
   home: {
-    title: "Fazle Rabbi Dev - MERN Stack Web Developer",
+    title: "Fazle Rabbi - MERN Stack Web Developer",
     desc: "I am Fazle Rabbi a Passionate MERN Stack Web Developer from Bangladesh. Transforming ideas into web applications. Building Full Stack Projects. Bringing life to designs through lines of code. Connect with Fazle Rabbi Dev for collaborations, projects, and discussions.",
   },
   about: {

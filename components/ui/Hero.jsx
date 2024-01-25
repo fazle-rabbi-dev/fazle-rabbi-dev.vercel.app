@@ -73,7 +73,7 @@ export const Hero = () => {
                 <ChevronsRight size={17} />
                 <span>
                   Im on a mission to become a{" "}
-                  <span className="gradient_text font-bold">full stack</span>{" "}
+                  <span className="gradient_text font-bold">Full Stack</span>{" "}
                   developer.
                 </span>
               </p>

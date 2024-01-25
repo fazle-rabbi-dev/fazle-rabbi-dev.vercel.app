@@ -84,7 +84,7 @@
   }
 
   .work_btn {
-    @apply flex items-center gap-2 border-[1px] border-dark_1 text-dark_1 rounded py-1 px-6 transition cursor-pointer active:scale-90 hover:bg-dark_4 hover:text-light_1 dark:bg-transparent dark:text-light_2 dark:border-light_2 dark:hover:text-dark_2 dark:hover:bg-light_3;
+    @apply flex items-center gap-2 border-[1px] border-dark_1 text-dark_1 rounded py-2 px-6 transition cursor-pointer active:scale-90 hover:bg-dark_4 hover:text-light_1 dark:bg-transparent dark:text-light_2 dark:border-light_2 dark:hover:text-dark_2 dark:hover:bg-light_3;
   }
 
   .btn_link {

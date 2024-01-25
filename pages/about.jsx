@@ -13,7 +13,7 @@ const About = () => {
         desc={site_metadata?.about?.desc}
       />
       
-      <PageTitle title="About fazle rabbi" effect="purple" />
+      <PageTitle title="About me" effect="purple" />
       <div className="">
         {/* Intro */}
         <p className="info dark:bg-transparent dark:p-4 dark:border-l-[.5px] dark:border-teal-400/40 dark:rounded">
@@ -33,22 +33,22 @@ const About = () => {
       </div>
 
       <div className="my-10">
-        <h2 className="sub_heading">What I Love 😍</h2>
+        <h2 className="sub_heading">😍 What I Love</h2>
         <p className="info">{aboutPageData?.what_i_love}</p>
       </div>
 
       <div className="my-2">
-        <h2 className="sub_heading">My Hobbies 🎯</h2>
+        <h2 className="sub_heading">🎯 My Hobbies</h2>
         <p className="info">{aboutPageData?.my_hobbies}</p>
       </div>
 
       <div className="my-10">
-        <h2 className="sub_heading">Apps I use daily 📱</h2>
+        <h2 className="sub_heading">🛸 Apps I use daily</h2>
         <p className="info">{aboutPageData?.apps_i_use}</p>
       </div>
 
       <div className="my-10">
-        <h2 className="sub_heading">Fun fact 🤩</h2>
+        <h2 className="sub_heading">🤓 Fun fact</h2>
         <p className="info">
           I code on <span className="gradient_text">Android </span>
           using{" "}
