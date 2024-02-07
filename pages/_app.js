@@ -20,6 +20,8 @@ export default function App({ Component, pageProps }) {
         <meta property="og:description" content={site_metadata?.desc} />
         <meta property="og:image" content="/og-image.png" />
 
+        <meta name="google-site-verification" content="e2eypPimpfZkOQOEpkZSgIbHZCp1EuaV8O5NPn4zNnc" />
+
         {/*<meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="731" />
         */}
