@@ -3,6 +3,58 @@ export const projectPageData = {
     "Dive into my projects! See how I create cool web apps and tackle backend challenges using MERN stack. It's a journey of coding magic – join me in exploring innovation!",
   favourite_projects: [
     {
+      id: "111",
+      cover: "/images/cover_images/linkbridge.jpg",
+      name: "LinkBridge",
+      desc: "LinkBridge is a full-stack MERN linktree application designed to help you organize your social media and other links in one convenient location. With LinkBridge, you can create your own profile, essentially a single-page website, in just a few moments.",
+      technologies: [
+        {
+          name: "React",
+          style: "badge_react"
+        },
+        {
+          name: "TailwindCSS",
+          style: "badge_tailwind"
+        },
+        {
+          name: "React-Query",
+          style: "badge_react_query"
+        },
+        {
+          name: "Nodejs",
+          style: "badge_node"
+        },
+        {
+          name: "MongoDB",
+          style: "badge_mongo"
+        }
+      ],
+      links: {
+        github: "https://github.com/fazle-rabbi-dev/Link-Bridge",
+        live: "https://linkbridge.vercel.app"
+      },
+      details: {
+        title: "LinkBridge",
+        desc: "This project represents a significant milestone in my journey as a mern-stack developer. I poured my heart and soul into crafting this application, leveraging my MERN stack skills and embracing the principles of clean code and industry best practices.",
+        features: [
+          "👥 Authentication with email & password, Google, and GitHub",
+          "🔑 Forgot password functionality",
+          "🔒 Secure password change",
+          "💼 Update account details",
+          "🖼 Change profile photo",
+          "🔗 Add custom links with title, URL & icon",
+          "🌐 Add social media links",
+          "🎨 Customize with predefined themes",
+          "🎨 Create your own theme",
+          "📝 Change fonts",
+          "🚪 Logout functionality",
+          "🌙 Dark theme feature",
+          "📈 Link stats (showing how many times and at what times your links get clicked)",
+          "📱 PWA feature: Install the web app on devices for quick access, just like a regular app from an app store"
+        ]
+      }
+    },
+    {
       id: 1,
       cover: "/images/cover_images/rainbownote_cover.jpg",
       name: "Rainbownote",
