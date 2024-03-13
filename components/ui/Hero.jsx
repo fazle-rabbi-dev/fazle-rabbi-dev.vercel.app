@@ -22,7 +22,7 @@ export const Hero = () => {
   });
   
   return (
-    <section className="relative min-h-screen md:flex md:justify-center md:items-center md:max-w-3xl">
+    <section className="relative min-h-screen md:flex md:justify-center md:items-center sm:max-w-3xl">
       {/* Gradient Effect */}
       <div className="gradient_effect"></div>
 

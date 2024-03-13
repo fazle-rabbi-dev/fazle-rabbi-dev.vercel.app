@@ -7,7 +7,7 @@ const { Proficient, Comfortable, others, intro } = skillPageData;
 
 const Skills = () => {
   return (
-    <section className="md:max-w-3xl">
+    <section className="sm:max-w-3xl">
       <SeoMetadata
         title={site_metadata?.skill?.title}
         desc={site_metadata?.skill?.desc}

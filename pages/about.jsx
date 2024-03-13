@@ -7,7 +7,7 @@ import { aboutPageData, site_metadata } from "@/constants";
 
 const About = () => {
   return (
-    <section className="md:max-w-3xl">
+    <section className="sm:max-w-3xl">
       <SeoMetadata
         title={site_metadata?.about?.title}
         desc={site_metadata?.about?.desc}

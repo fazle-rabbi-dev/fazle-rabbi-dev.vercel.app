@@ -7,7 +7,7 @@ import { Home } from "lucide-react"
 
 const BlogPage = () => {
   return (
-    <section className="w-full md:max-w-3xl">
+    <section className="w-full sm:max-w-3xl">
       <SeoMetadata
         title={site_metadata?.blog?.title}
         desc={site_metadata?.blog?.desc}

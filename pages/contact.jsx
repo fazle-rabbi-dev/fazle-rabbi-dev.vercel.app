@@ -15,7 +15,7 @@ import { contactPageData, site_metadata } from "@/constants";
 
 const Contact = () => {
   return (
-    <section className="md:max-w-3xl">
+    <section className="sm:max-w-3xl">
       <SeoMetadata
         title={site_metadata?.contact?.title}
         desc={site_metadata?.contact?.desc}
