@@ -4,7 +4,7 @@ export const projectPageData = {
   favourite_projects: [
     {
       id: "000111",
-      cover: "/images/cover_images/linkbridge.jpg",
+      cover: "/images/cover_images/spend-sync.jpg",
       name: "Spend-Sync",
       desc: "Spend-Sync is a user-friendly expense tracker app that helps you effortlessly manage and monitor your spending habits. Stay organized and gain insights into your financial health with Spend-Sync. Try it now!",
       technologies: [
