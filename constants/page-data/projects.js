@@ -3,6 +3,53 @@ export const projectPageData = {
     "Dive into my projects! See how I create cool web apps and tackle backend challenges using MERN stack. It's a journey of coding magic – join me in exploring innovation!",
   favourite_projects: [
     {
+      id: "000111",
+      cover: "/images/cover_images/linkbridge.jpg",
+      name: "Spend-Sync",
+      desc: "Spend-Sync is a user-friendly expense tracker app that helps you effortlessly manage and monitor your spending habits. Stay organized and gain insights into your financial health with Spend-Sync. Try it now!",
+      technologies: [
+        {
+          name: "React",
+          style: "badge_react"
+        },
+        {
+          name: "TailwindCSS",
+          style: "badge_tailwind"
+        },
+        {
+          name: "Appwrite",
+          style: "badge_react_query"
+        },
+        {
+          name: "Zustand",
+          style: "badge_nextjs"
+        },
+        {
+          name: "React-Query",
+          style: "badge_react_query"
+        }
+      ],
+      links: {
+        github: "https://github.com/fazle-rabbi-dev/spend-sync",
+        live: "https://speend-sync.vercel.app/"
+      },
+      details: {
+        title: "Spend-Sync",
+        desc: "I embarked on the journey of building Spend-Sync with the goal of tracking personal expenses and aiding others in managing their finances. The process brought me joy as I transformed ideas into a real-life application, witnessing its utility firsthand. From inception to completion, coding this project was more than a task—it was a passion. Now, with Spend-Sync ready, I find joy in knowing that it will make life easier for many.",
+        features: [
+          "👥 Authentication with email & password, Google, and GitHub",
+          "🗑️ Trash feature",
+          "✏️ Expense management: Create, read, delete, update",
+          "📥 Download expenses as PDF: Filtered by date range",
+          "🔍 Search functionality",
+          "📅 Today's expenses: Displayed with total amount",
+          "🚪 Logout functionality",
+          "🌙 Dark theme feature",
+          "📱 PWA feature: Install the web app on devices for quick access, just like a regular app from an app store"
+        ]
+      }
+    },
+    {
       id: "111",
       cover: "/images/cover_images/linkbridge.jpg",
       name: "LinkBridge",
