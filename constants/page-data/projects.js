@@ -1,7 +1,7 @@
 export const projectPageData = {
   intro:
     "Dive into my projects! See how I create cool web apps and tackle backend challenges using MERN stack. It's a journey of coding magic – join me in exploring innovation!",
-  favourite_projects: [
+  web_projects: [
     {
       id: "000111",
       cover: "/images/cover_images/spend-sync.jpg",
@@ -367,5 +367,56 @@ export const projectPageData = {
       }
     }
   ],
+  android_projects: [
+      {
+        id: 0,
+        name: "Goal Galaxy",
+        desc: "Goal-Galaxy is a beautifully crafted Todo-List app built with React-Native, Expo-Router, TailwindCSS and Appwrite. This app will help you manage your todos effectively with its simplicity in handling tasks.",
+        icon: "https://raw.githubusercontent.com/fazle-rabbi-dev/Goal-Galaxy/main/assets/images/icon.png",
+        date: "May 2024",
+        link: "https://github.com/fazle-rabbi-dev/Goal-Galaxy",
+        technologies: [
+            "React-Native",
+          ]
+      },
+      {
+        id: 1,
+        name: "Evil Text",
+        desc: "Evil Text is a text repeater app for android.",
+        icon: "https://user-images.githubusercontent.com/71178740/216031683-c7a3f188-0225-484f-b333-08935174b70e.png",
+        date: "January 2023",
+        link: "https://github.com/fazle-rabbi-dev/Evil-Text",
+        technologies: [
+            "Java",
+          ]
+      },
+      {
+        id: 2,
+        name: "Random Color",
+        desc: "Random color generator app",
+        icon: "https://user-images.githubusercontent.com/71178740/216031553-e06915af-0a27-4ac4-b4d6-3ae3f6419a04.png",
+        date: "January 2023",
+        link: "https://github.com/fazle-rabbi-dev/Random-Color",
+        technologies: [
+            "Java",
+          ]
+      }
+    ],
+  misc_projects: [
+      {
+        id: 1,
+        name: "create-swiftstart",
+        desc: "Automate the setup of Vite-React & Next.js projects with a pre-designed boilerplate structure using create-swiftstart. This tool saves your time and provides a clean starting point for your React or Next.js applications.",
+        link: "https://github.com/fazle-rabbi-dev/create-swiftstart",
+        date: "October, 2023"
+      },
+      {
+        id: 2,
+        name: "generate-expressjs-app",
+        desc: "Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using generate-expressjs-app.This tool saves your time and provides a clean starting point for your express.js applications.",
+        link: "https://github.com/fazle-rabbi-dev/generate-expressjs-app",
+        date: "February, 2024"
+      },
+    ],
   more_projects: "https://github.com/fazle-rabbi-dev?tab=repositories"
 };
