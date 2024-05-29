@@ -27,7 +27,7 @@ const Project = () => {
             <p className="info my-4">{projectPageData?.intro}</p>
 
             <div className="my-10">
-                <p className="mb-2 flex items-center gap-1 text-black font-medium font-bold">
+                <p className="mb-2 flex items-center gap-1 text-black font-medium font-bold text-white">
                   <span className="text-purple-600 dark:text-teal-600"><ListFilter size={18} /></span>
                   Filter Project
                 </p>
