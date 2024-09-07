@@ -3,6 +3,65 @@ export const projectPageData = {
     "Dive into my projects! See how I create cool web apps and tackle backend challenges using MERN stack. It's a journey of coding magic – join me in exploring innovation!",
   web_projects: [
     {
+      id: "000112",
+      cover: "/images/cover_images/slice-url.jpg",
+      name: "Slice-URL",
+      desc: "A free and Easy-to-Use URL-Shortener app built with MERN Stack for Efficient Link Management. Easily shorten, customize, and track your links to boost engagement and optimize digital marketing strategies.",
+      technologies: [
+        {
+          name: "React",
+          style: "badge_react"
+        },
+        {
+          name: "TailwindCSS",
+          style: "badge_tailwind"
+        },
+        {
+          name: "Firebase",
+          style: "badge_firebase"
+        },
+        {
+          name: "Zustand",
+          style: "badge_nextjs"
+        },
+        {
+          name: "React-Query",
+          style: "badge_react_query"
+        },
+        {
+          name: "Nodejs",
+          style: "badge_node"
+        },
+        {
+          name: "Expressjs",
+          style: "badge_nextjs"
+        },
+        {
+          name: "MongoDB",
+          style: "badge_mongo"
+        }
+      ],
+      links: {
+        github: "https://github.com/fazle-rabbi-dev/Slice-Url",
+        live: "https://slice-url.vercel.app/"
+      },
+      details: {
+        title: "Slice-URL",
+        desc: "This is another hobby project I created to supercharge my MERN stack skills. This project has helped me a lot in updating my knowledge. Building projects is a great way to learn new things or enhance existing skills. It has been a great journey! ☺️",
+        features: [
+          "👥 User Authentication: Create an account and log in securely.",
+          "🔒 Password Management: Change passwords with ease and security.",
+          "✂️ URL Shortening: Effortlessly shorten long URLs.",
+          "📝 Custom Link Alias: Customize your short URLs to make them memorable.",
+          "📊 Analytics Dashboard: Track click rates and engagement metrics for each link.",
+          "🖥️ Responsive Design: Access the app seamlessly across devices.",
+          "📲 PWA (Progressive Web App): Install the app on your device for a native-like experience.",
+          "🔗 Link Click Source Tracking: Monitor and analyze where your link clicks are coming from.",
+          "🌙 Dark Mode: Enjoy a dark theme option for a better viewing experience in low light."
+        ]
+      }
+    },
+    {
       id: "000111",
       cover: "/images/cover_images/spend-sync.jpg",
       name: "Spend-Sync",
@@ -368,55 +427,49 @@ export const projectPageData = {
     }
   ],
   android_projects: [
-      {
-        id: 0,
-        name: "Goal Galaxy",
-        desc: "Goal-Galaxy is a beautifully crafted Todo-List app built with React-Native, Expo-Router, TailwindCSS and Appwrite. This app will help you manage your todos effectively with its simplicity in handling tasks.",
-        icon: "https://raw.githubusercontent.com/fazle-rabbi-dev/Goal-Galaxy/main/assets/images/icon.png",
-        date: "May 2024",
-        link: "https://github.com/fazle-rabbi-dev/Goal-Galaxy",
-        technologies: [
-            "React-Native",
-          ]
-      },
-      {
-        id: 1,
-        name: "Evil Text",
-        desc: "Evil Text is a text repeater app for android.",
-        icon: "https://user-images.githubusercontent.com/71178740/216031683-c7a3f188-0225-484f-b333-08935174b70e.png",
-        date: "January 2023",
-        link: "https://github.com/fazle-rabbi-dev/Evil-Text",
-        technologies: [
-            "Java",
-          ]
-      },
-      {
-        id: 2,
-        name: "Random Color",
-        desc: "Random color generator app",
-        icon: "https://user-images.githubusercontent.com/71178740/216031553-e06915af-0a27-4ac4-b4d6-3ae3f6419a04.png",
-        date: "January 2023",
-        link: "https://github.com/fazle-rabbi-dev/Random-Color",
-        technologies: [
-            "Java",
-          ]
-      }
-    ],
+    {
+      id: 0,
+      name: "Goal Galaxy",
+      desc: "Goal-Galaxy is a beautifully crafted Todo-List app built with React-Native, Expo-Router, TailwindCSS and Appwrite. This app will help you manage your todos effectively with its simplicity in handling tasks.",
+      icon: "https://raw.githubusercontent.com/fazle-rabbi-dev/Goal-Galaxy/main/assets/images/icon.png",
+      date: "May 2024",
+      link: "https://github.com/fazle-rabbi-dev/Goal-Galaxy",
+      technologies: ["React-Native"]
+    },
+    {
+      id: 1,
+      name: "Evil Text",
+      desc: "Evil Text is a text repeater app for android.",
+      icon: "https://user-images.githubusercontent.com/71178740/216031683-c7a3f188-0225-484f-b333-08935174b70e.png",
+      date: "January 2023",
+      link: "https://github.com/fazle-rabbi-dev/Evil-Text",
+      technologies: ["Java"]
+    },
+    {
+      id: 2,
+      name: "Random Color",
+      desc: "Random color generator app",
+      icon: "https://user-images.githubusercontent.com/71178740/216031553-e06915af-0a27-4ac4-b4d6-3ae3f6419a04.png",
+      date: "January 2023",
+      link: "https://github.com/fazle-rabbi-dev/Random-Color",
+      technologies: ["Java"]
+    }
+  ],
   misc_projects: [
-      {
-        id: 1,
-        name: "create-swiftstart",
-        desc: "Automate the setup of Vite-React & Next.js projects with a pre-designed boilerplate structure using create-swiftstart. This tool saves your time and provides a clean starting point for your React or Next.js applications.",
-        link: "https://github.com/fazle-rabbi-dev/create-swiftstart",
-        date: "October, 2023"
-      },
-      {
-        id: 2,
-        name: "generate-expressjs-app",
-        desc: "Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using generate-expressjs-app.This tool saves your time and provides a clean starting point for your express.js applications.",
-        link: "https://github.com/fazle-rabbi-dev/generate-expressjs-app",
-        date: "February, 2024"
-      },
-    ],
+    {
+      id: 1,
+      name: "create-swiftstart",
+      desc: "Automate the setup of Vite-React & Next.js projects with a pre-designed boilerplate structure using create-swiftstart. This tool saves your time and provides a clean starting point for your React or Next.js applications.",
+      link: "https://github.com/fazle-rabbi-dev/create-swiftstart",
+      date: "October, 2023"
+    },
+    {
+      id: 2,
+      name: "generate-expressjs-app",
+      desc: "Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using generate-expressjs-app.This tool saves your time and provides a clean starting point for your express.js applications.",
+      link: "https://github.com/fazle-rabbi-dev/generate-expressjs-app",
+      date: "February, 2024"
+    }
+  ],
   more_projects: "https://github.com/fazle-rabbi-dev?tab=repositories"
 };
